@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prompt Generator</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+  <div class="container">
+    <h1>Prompt    Generator</h1>
+    <div id="taskSection">
+      <label for="task">What do you want to generate?</label>
+      <select id="task" name="task">
+        <option value="text">Text</option>
+        <option value="image">Image</option>
+        <option value="code">Code</option>
+      </select>
+    </div>
+
+    <div id="inputFields"></div>
+
+    <button id="generateButton">Generate Prompt</button>
+    <div id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
