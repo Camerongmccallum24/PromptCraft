@@ -4,11 +4,13 @@ const generateButton = document.getElementById('generateButton');
 const output = document.getElementById('output');
 
 // API Keys and Endpoints (Replace with your actual values)
-const azureOpenAiApiKey = ""; 
+const azureOpenAiApiKey = process.env.AZURE_OPENAI_API_KEY;
+const googleApiKey = process.env.GOOGLE_API_KEY;
+
+// ... rest of your code
 const azureOpenAiEndpoint = "https://promptcraft-openai.openai.azure.com/"; 
 const dallE2Endpoint = "https://promptcraft-openai.openai.azure.com/openai/deployments/dall-e-3/images/generations?api-version=2024-02-01";  
-const codeGenEndpoint = "https://promptcraft-openai.openai.azure.com/";  
-const googleApiKey = '';       
+const codeGenEndpoint = "https://promptcraft-openai.openai.azure.com/";        
 
 // ... (Google NLP setup) ...
 
