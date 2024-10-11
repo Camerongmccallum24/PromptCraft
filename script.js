@@ -4,8 +4,8 @@ const generateButton = document.getElementById('generateButton');
 const output = document.getElementById('output');
 
 // API Keys and Endpoints (Replace with your actual values)
-const azureOpenAiApiKey = process.env.AZURE_OPENAI_API_KEY;
-const googleApiKey = process.env.GOOGLE_API_KEY;
+const azureOpenAiApiKey = 'your-azure-openai-api-key';
+const googleApiKey = 'your-google-api-key';
 
 // ... rest of your code
 const azureOpenAiEndpoint = "https://promptcraft-openai.openai.azure.com/"; 
